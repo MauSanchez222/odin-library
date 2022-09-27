@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <img src="./book-icon.jpg" alt="book icon">
+        <span>My Library</span>
+    </div>
+    <hr>
+    
+    <button type="button" id="add-btn">Add Book</button>
+
+    <div id="books-zone">
+        
+    </div>
+    
+    <div id="form-modal" class="modal">
+        <span class="close">&times;</span>
+        <form action="" id="book-form">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="book-title" maxlength="80">
+            
+            <label for="author">Author</label>
+            <input type="text" name="author" id="book-author" maxlength="100">
+
+            <label for="pages">Nr. of pages</label>
+            <input type="text" name="pages" id="book-pages" pattern="[0-9]*">
+
+            <label for="status">Status</label>
+            <button type="button" name="status" id="status-btn" class="unread status-btn">Not Read</button>
+
+            <button type="button" id="submit-btn">Add Book</button>
+        </form>
+    </div>
+</body>
+</html>
