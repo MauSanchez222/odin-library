@@ -24,6 +24,11 @@
     align-self: center
 }
 
+#add-btn:hover, #submit-btn:hover{
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
 #books-zone{
     height: 70vh;
     width: 80vw;
@@ -86,6 +91,10 @@
     margin-left: 10px;
 }
 
+#remove-btn:hover{
+    cursor: pointer;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -109,6 +118,10 @@
     border-radius: 5px;
 }
 
+.status-btn:hover{
+    cursor: pointer;
+}
+
 .unread{
     background-color: #ff8080;
 }
@@ -118,8 +131,8 @@
 }
 
 .book-cover{
-    height: 190px;
-    width: 105px;
+    height: 90%;
+    width: 80%;
     margin: 20px 0 20px 25px;
 }
 
